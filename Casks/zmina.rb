@@ -1,13 +1,13 @@
 cask "zmina" do
-  version "1.6.1"
+  version "1.6.2"
 
   on_arm do
-    sha256 "abf0479adaec69bbdcf2ceb9e9cdbb7ec32b8ecbab2dcaaec1506d42a160f488"
+    sha256 "09572faafebf3d78190cdb07c761f0ae127d5a3a1fc9c6530ba3f77608902cea"
 
     url "https://releases.zmina.app/zmina-#{version}-aarch64.dmg"
   end
   on_intel do
-    sha256 "0971a8a6df24212fcebc946b690e3130a0c8996ba821771c1a77153c94aece32"
+    sha256 "922c00eceb9cf97111c2ddad755498b5d6527adc9c840ec752a69fa55bd35f1a"
 
     url "https://releases.zmina.app/zmina-#{version}.dmg"
   end
